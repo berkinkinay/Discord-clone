@@ -1,5 +1,5 @@
 # Discord-UI-clone 💻
-`This is UI clone project for Discord.`
+`This is just Frontend UI clone project for Discord.`
 
 ## Used Techs 🥰
 
