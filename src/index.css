@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  --black: #000000;
+  --ash-black: #222;
+  --white: #000000ab;
+  --background: var(--black);
+  --accent: var(--white);
+  margin: 0;
+  padding: 0;
+  background-color: var(--background);
+  color: var(--accent);
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+}
+
+::-webkit-scrollbar {
+  height: 5px;
+  width: 2px;
+  background: #fff3;
+  -webkit-border-radius: 1ex;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--accent);
+  -webkit-border-radius: 1ex;
+}
+
+::-webkit-scrollbar-corner {
+  background: #fff3;
+}
+
+@layer components {
+  .sidebar-icon {
+    @apply relative flex items-center justify-center 
+    h-12 w-12 mt-2 mb-2 mx-auto  
+  bg-gray-600 hover:bg-blue-800 dark:bg-gray-800 
+  text-gray-300 hover:text-white
+    hover:rounded-xl rounded-3xl
+    transition-all duration-300 ease-linear
+    cursor-pointer shadow-lg;
+  }
+
+
+  .sidebar-tooltip {
+    @apply absolute w-auto p-2 m-2 min-w-max left-14 rounded-md shadow-md
+    text-white bg-gray-900 
+    text-xs font-bold 
+    transition-all duration-100 scale-0 origin-left;
+  }
+
+  .sidebar-hr {
+    @apply bg-gray-200 dark:bg-gray-800 
+    border border-gray-200 dark:border-gray-800 rounded-full
+    mx-2;
+  }
+
+   .listbox {
+    @apply  flex flex-col w-full text-white divide-y divide-gray-600
+    hover:bg-gray-600 h-[80px] bg-gray-700 items-center indent-4
+   }
+
+   .listactivity {
+    @apply flex flex-col w-full h-16 text-white divide-y divide-gray-600
+    hover:bg-black bg-gray-800 items-center indent-2 rounded-xl gap-4
+    hover:shadow-xl border border-slate-700	
+   }
+
+   .dmlist {
+    @apply hover:flex flex-col w-full h-12 text-white
+    hover:bg-gray-600 bg-gray-800 items-center indent-2 hover:shadow-lg
+    divide-gray-300 divide-x
+   }
+
+   .Icons:hover::after {
+    @apply hidden
+   }
+
+   .list-tooltip  {
+    @apply absolute w-auto p-2 m-2 min-w-max left-14 rounded-md shadow-md
+    text-white bg-gray-900 
+    text-xs font-bold 
+    transition-all duration-100 scale-0 origin-left 
+  }
+}
