@@ -3,7 +3,7 @@ import React from 'react'
 
 const Main = () => {
   return (
-<div class='bg-gray-700 h-screen w-full text-white'>
+<div class='bg-gray-700 w-full text-white'>
 
 </div>
   )

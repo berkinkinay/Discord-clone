@@ -7,8 +7,7 @@ const SideBar = () => {
   return (
   <div>
     <div class="fixed top-0 left-0 h-screen w-20 flex flex-col
-                  bg-gray-900 shadow-lg">
-                    
+                bg-gray-900 shadow-lg">           
         <SideBarIcon icon={<FaDiscord size="28" />} />
         <Divider />
         <SideBarIcon icon={<BsPlus size="32" />} />
@@ -18,7 +17,7 @@ const SideBar = () => {
         <SideBarIcon icon={<BsGearFill size="22" />} />
         <SideBarIcon icon={<FaCompass size="22" />} />
     </div>
-    </div>
+  </div>
   );
 };
 
@@ -30,7 +29,6 @@ const SideBarIcon = ({ icon, text = 'tooltip 💡' }) => (
     </span>
   </div>
 );
-
 
 const Divider = () => <hr className="sidebar-hr" />;
 
