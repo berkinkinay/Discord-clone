@@ -18,7 +18,7 @@
 ### `MIT` ⚖️
 
 ## `Developer Side (Upcoming features)`💫
-This is for now... I am going to add more Functional Methods with `JavaScript` and more different animations very soon.
+This is for now... I am going to add more Functional Methods with `JavaScript` and more different animations, UI content very soon.
 
 ### `dev`
 Berkin Kınay 👤
