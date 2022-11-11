@@ -8,7 +8,7 @@ const Search = () => {
     <form>
        <input 
         type="email" 
-        placeholder="Hello There!" 
+        placeholder="Search" 
         name="search" 
         class="flex absolute top-3 left-5 indent-3 text-white bg-gray-900 rounded-lg w-[820px] h-8 border-slate-800">
        </input>
