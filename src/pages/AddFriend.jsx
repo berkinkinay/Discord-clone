@@ -18,7 +18,7 @@ const AddFriend = () => {
          type="email" 
          placeholder="Enter a Username#0000" 
          name="" 
-         class="flex absolute top-8 left-2 indent-3 bg-gray-900 rounded-lg w-[780px] h-12 border-blue-500 text-gray-500">
+         class="flex absolute top-8 left-2 indent-3 bg-gray-900 rounded-lg w-[780px] h-12 border-blue-500 text-white">
        </input>
       </form>
       <div class='flex top-20 absolute h-1 w-[800px] divide-y-2 divide-black'></div>

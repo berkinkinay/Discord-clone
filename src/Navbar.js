@@ -5,11 +5,14 @@ import { NavLink } from 'react-router-dom'
 const Navbar = () => {
   const activeLink = "flex bg-gray-600 w-20 h-fit rounded-lg items-center justify-center";
   const activeLinkAdd = "active-link-add";
+  const activeLinkSug = "active-sug"
 
   const normalLink = "normal-link";
   const normalLinkAdd = "normal-link-add"
+  const normalLinkSug = "normal-sug"
 
   return (
+
 <React.Fragment>
 <div
  class=
@@ -43,7 +46,7 @@ const Navbar = () => {
         </NavLink>
         <NavLink
           to = "/suggestions"
-          className={({ isActive }) => (isActive ? activeLink : normalLink)} 
+          className={({ isActive }) => (isActive ? activeLinkSug : normalLinkSug)} 
           >
             <p>Suggestions</p>
         </NavLink>

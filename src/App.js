@@ -14,7 +14,7 @@ import DirectMessages from './components/DirectMessages'
 import SideBar from './components/SideBar'
 import FriendsActivity from './components/FriendsActivity'
 import { Route, Routes, useLocation } from 'react-router-dom';
-// CSS and NAe
+// CSS and NAV
 import './index.css';
 import Navbar from './Navbar'
 
@@ -27,7 +27,6 @@ function App() {
   <SideBar />
   <FriendsList /> 
   <FriendsActivity />
-  <DirectMessages />
   <Main /> 
   <Search />
     <Routes key={location.pathname} location={location}>
@@ -50,6 +49,7 @@ function App() {
         exact
         path= '/addfriend' element={ <AddFriend />} />
     </Routes> 
+    <DirectMessages />
  </>
   );
 }
