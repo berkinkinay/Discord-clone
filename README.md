@@ -11,7 +11,8 @@
 
 ## Project Link 🔭
 
-`See the project what it looks like` => [Review](https://discord-clone-47aw5yejj-developedbyven.vercel.app/)
+`See the project what it looks like and there is no dangerous to login this URL link just go with details button in the google protection page.` => [Review](https://discord-clone-47aw5yejj-developedbyven.vercel.app/)
+
 
 ## Licance
 ### `MIT` ⚖️
