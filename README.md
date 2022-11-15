@@ -11,7 +11,7 @@
 
 ## Project Link 🔭
 
-`See the project what it looks like` => [Review](http://discord-clone-git-main-developedbyven.vercel.app/)
+`See the project what it looks like` => [Review](https://discord-clone-47aw5yejj-developedbyven.vercel.app/)
 
 ## Licance
 ### `MIT` ⚖️
