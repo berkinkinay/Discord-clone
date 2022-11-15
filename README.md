@@ -1,4 +1,4 @@
-# Developer Workspace💻
+# Discord UI Clone💻
 `This is a Discord UI clone project. There are gonna be a lot of stuff in it.`
 
 ## Used Techs 🥰
@@ -11,7 +11,7 @@
 
 ## Project Link 🔭
 
-`See the project what it looks like` => [Review]()
+`See the project what it looks like` => [Review](discord-clone-8i6qxqrpf-developedbyven.vercel.app)
 
 ## Licance
 ### `MIT` ⚖️
