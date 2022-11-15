@@ -4,9 +4,8 @@ import { BiX } from 'react-icons/bi'
 const Suggestions = () => {
   return (
  <div>
-    <p 
-     class='flex absolute item-center justify-center top-[104px] left-[352px] w-fit h-fit bg-gray-700 text-xs uppercase text-white'>
-       Blocked-2
+   <p class='flex absolute item-center justify-center top-[104px] left-[350px] w-16 h-fit bg-gray-700 text-sm text-white'>
+        Blocked-2
     </p>
     <button 
      class='flex flex-col overflow-y-auto absolute 3xl:w-[1200px] 3xl:h-[360px] 2xl:h-[580px]

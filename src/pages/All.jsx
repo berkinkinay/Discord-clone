@@ -4,12 +4,9 @@ import { BiDotsVerticalRounded } from 'react-icons/bi'
 const All = () => {
   return (
   <h1>
-     <p 
-      class=
-      'flex absolute item-center justify-center top-[104px] left-[344px] w-16 h-fit bg-gray-700 text-sm text-white'
-       >
-         ALL-12
-     </p>
+    <p class='flex absolute item-center justify-center top-[104px] left-[350px] w-16 h-fit bg-gray-700 text-sm text-white'>
+        All-12
+    </p>
     <div 
      class='flex flex-col overflow-y-auto absolute 3xl:w-[1200px] 3xl:h-[360px] 2xl:h-[580px]
             2xl:w-[800px] bg-gray-700 top-32 left-[350px] border-r-8

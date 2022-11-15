@@ -15,9 +15,7 @@ const Search = () => {
     </form>
   </div>
   <div class='flex absolute h-fit w-fit'>
-    
   </div>
-   <div class='flex absolute top-14 left-5 w-fit h-fit text-white indent-3 uppercase text-xs'> onlıne-6</div>
 </div>
   )
 }

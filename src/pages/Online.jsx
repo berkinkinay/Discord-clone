@@ -7,6 +7,9 @@ const Online = () => {
   return (
     
 <div class='absolute flex left-20 2xl:h-screen w-[240px] bg-gray-800 text-white'>
+    <p class='flex absolute item-center justify-center top-[104px] left-[270px] w-16 h-fit bg-gray-700 text-sm text-white'>
+        Online-6
+    </p>
  <div class='flex shadow-2xl'>
     <form>
       <div class='flex absolute text-sm top-0 left-0 indent-3 text-white shadow-xl

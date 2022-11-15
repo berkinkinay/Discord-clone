@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 body {
   --black: #000000;
   --ash-black: #222;
@@ -60,7 +62,7 @@ body {
 
    .listbox {
     @apply  flex flex-col w-full text-white divide-y divide-gray-600
-          hover:bg-gray-600 h-[68px] bg-gray-700 items-center indent-4
+          hover:bg-gray-600 h-16 bg-gray-700 items-center indent-4
    }
 
    .listactivity {
@@ -92,7 +94,7 @@ body {
   }
 
   .normal-link {
-    @apply flex hover:bg-gray-600 w-20 h-fit rounded-lg items-center
+    @apply flex hover:bg-gray-600 w-20 h-fit rounded-md items-center
            justify-center transition-all duration-200 ease-linear
            cursor-pointer shadow
   }
@@ -119,4 +121,11 @@ body {
            justify-center transition-all duration-200 ease-linear
            cursor-pointer shadow-lg
   }
+  .active-card {
+    @apply flex justify-center absolute bottom-14 w-[300px]
+           h-96 bg-gray-800 text-white rounded-xl
+  }
+    
 }
+
+

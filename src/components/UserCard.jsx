@@ -6,6 +6,7 @@ import { FaCircle, FaSmile } from 'react-icons/fa'
 import Wraith from '../assets/wraith.png'
 
 const UserCard = () => {
+
   return (
     
 <div class="flex justify-center absolute bottom-14 w-[300px] h-96 bg-gray-800 text-white rounded-xl"> 
@@ -30,7 +31,7 @@ const UserCard = () => {
                      bg-black absolute right-2 rounded-md"
          > 
            <BiMeteor size="1.2em"/>
-        </button>
+      </button>
     </div>
      <div 
       class=
@@ -52,19 +53,17 @@ const UserCard = () => {
           class=
           "flex absolute top-[170px] text-xs left-4 h-fit w-fit font-normal text-green-300"
           >
-            <FaCircle /> <p class="flex absolute bottom-3 h-1 w-fit text-white text-sm indent-5 font-normal">Online</p></div>
-          <div 
-           class=
-           "mt-10 ml-4"
-           >
-              <FaSmile />  
+            <FaCircle /> <p class="flex absolute bottom-3 h-1 w-fit text-white text-sm indent-5 font-normal">Online</p>
+         </div>
+         <div class="mt-10 ml-4"> <FaSmile />  
               <p class="flex absolute top-[193px] h-fit w-fit text-white text-xs indent-5 font-normal">Set custom status</p> 
-          </div>
-          <div class="mt-3"><Divider /></div>
-          <p class="flex absolute top-[240px] h-fit w-fit text-white text-xs indent-5 font-normal">Set custom status</p> 
-      </div>
-    </div>
+         </div>
+         <div class="mt-3"><Divider /></div>
+         <p class="flex absolute top-[240px] h-fit w-fit text-white text-xs indent-5 font-normal">Switch Accounts</p> 
+     </div>
+   </div>
 </div> 
+
   )
 }
 

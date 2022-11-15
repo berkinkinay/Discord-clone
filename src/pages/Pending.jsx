@@ -4,7 +4,7 @@ import Discord from '../assets/discord.png'
 const Pending = () => {
   return (
   <div  class=''>
-    <p class='flex absolute item-center justify-center top-[104px] left-[344px] w-16 h-fit bg-gray-700 text-sm text-white'>
+    <p class='flex absolute item-center justify-center top-[104px] left-[350px] w-16 h-fit bg-gray-700 text-sm text-white'>
         Pending
     </p>
     <div class='flex flex-col overflow-y-auto absolute 3xl:w-[1200px] 3xl:h-[360px] 2xl:h-[580px]

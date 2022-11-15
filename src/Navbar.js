@@ -23,8 +23,8 @@ const Navbar = () => {
     >   
      <div class='flex flex-cols-9 gap-4 ml-2 w-full text-base text-gray-200'> 
        <AiOutlineUser class='mt-1 ' color='' size='1.2em' /> 
-       <div class='flex absolute left-10 font-bold text-lg text-white'> Friends</div>
-       <div class='text-base font-light ml-24'> I </div>
+       <div class='flex absolute left-10 font-bold text-lg text-white'> Friends </div>
+       <div class='text-base font-bold ml-24 text-gray-500'> I </div>
        <div class='flex flex-cols-6 gap-5 ml-2 text-base text-gray-200'>
         <NavLink
           to = "/"
@@ -34,7 +34,7 @@ const Navbar = () => {
          </NavLink>
         <NavLink
           to = "/all"
-          className={({ isActive }) => (isActive ? activeLink : normalLink)} 
+          className={({ isActive }) => (isActive ? activeLink : normalLink)}
           >
             <p>All</p>
         </NavLink>
