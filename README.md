@@ -18,7 +18,7 @@
 
 ## `Developer Side (Upcoming features)`💫
 I am going to add new features and also new techs in it soon.
-Focusing on `React Hooks about user-app interract stuff and also JavaScript function modules`.
+I'm Focusing on React Hooks about user-app interract stuff also JavaScript function modules`.
 
 ### `dev`
 Berkin Kınay 👤
