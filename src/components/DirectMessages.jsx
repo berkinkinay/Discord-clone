@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import  { AiOutlineUser } from 'react-icons/ai'
 import { RiDiscordLine, RiSettings2Line } from 'react-icons/ri'
 import { BsFillMicFill, BsHeadphones } from 'react-icons/bs'
