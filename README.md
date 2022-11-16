@@ -1,5 +1,5 @@
 # Discord Clone💻
-`This is a Discord UI clone project. There are gonna be a lot of stuff in it.`
+`This is a Discord UI clone project.`
 
 ## Used Techs 🥰
 
