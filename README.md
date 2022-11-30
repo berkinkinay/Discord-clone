@@ -22,4 +22,4 @@ I am going to add new features and also new techs in it soon.
 `I'm focusing on React Hooks about user-app interract stuff also JavaScript function modules`. I will add hover tooltips for some buttons and one Discord Server to users interactions.
 
 ### `dev`
-Berkin Kınay 👤
+Berkin Kınay 👨‍💻
